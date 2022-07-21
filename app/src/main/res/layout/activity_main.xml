@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FAE6FA"
+    android:background="#9A954095"
     tools:context=".MainActivity">
 
 
@@ -53,12 +53,12 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="2"
-                android:backgroundTint="#3700B3"
+                android:backgroundTint="#7051B5"
                 android:hapticFeedbackEnabled="true"
                 android:onClick="PlusThreeA"
                 android:text="+3 Point"
                 android:textColor="#FFFFFF"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/button2"
@@ -66,12 +66,12 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="2"
-                android:backgroundTint="#3700B3"
+                android:backgroundTint="#7051B5"
                 android:hapticFeedbackEnabled="true"
                 android:onClick="PlusTwoA"
                 android:text="+2 Point"
                 android:textColor="#FFFFFF"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/button3"
@@ -79,12 +79,12 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="2"
-                android:backgroundTint="#3700B3"
+                android:backgroundTint="#7051B5"
                 android:hapticFeedbackEnabled="true"
                 android:onClick="PlusOneA"
                 android:text="+1 Point"
                 android:textColor="#FFFFFF"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
 
         </LinearLayout>
 
@@ -127,7 +127,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="2"
-                android:backgroundTint="#3700B3"
+                android:backgroundTint="#7051B5"
                 android:hapticFeedbackEnabled="true"
                 android:onClick="PlusThreeB"
                 android:text="+3 Point"
@@ -140,12 +140,12 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="2"
-                android:backgroundTint="#3700B3"
+                android:backgroundTint="#7051B5"
                 android:hapticFeedbackEnabled="true"
                 android:onClick="PlusTwoB"
                 android:text="+2 Point"
                 android:textColor="#FFFFFF"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/button6"
@@ -153,12 +153,12 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
                 android:layout_weight="2"
-                android:backgroundTint="#3700B3"
+                android:backgroundTint="#7051B5"
                 android:hapticFeedbackEnabled="true"
                 android:onClick="PlusOneB"
                 android:text="+1 Point"
                 android:textColor="#FFFFFF"
-                android:textSize="16sp"/>
+                android:textSize="16sp" />
         </LinearLayout>
     </LinearLayout>
 
@@ -169,12 +169,12 @@
         android:backgroundTint="#BB86F3"
         android:onClick="Reset"
         android:text="RESET"
+        android:textColor="#000000"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:layout_constraintVertical_bias="0.0"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"/>
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
